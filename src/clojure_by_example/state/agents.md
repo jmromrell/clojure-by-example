@@ -118,3 +118,11 @@ The failure state can be cleared by calling [restart-agent](https://clojuredocs.
 @my-agent
 ; => 102
 ```
+
+## TODO
+
+You can set up automatic error handlers on agents.
+
+You can optionally clear the operation queue when restarting an agent.
+
+Agents are very effective with watches.
