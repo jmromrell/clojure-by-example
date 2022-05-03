@@ -1,31 +1,20 @@
 # State in Clojure
 
-
-TODO:
-* Delete this
-* Complete refs guide
-* Complete agents guide
-* Complete watches guide
-* Complete transients guide
-* Push to github
-* Update TODO links to other guides below once github urls are known
-
-
 ## Clojure Reference Types
 
 Clojure comes with four reference types, each of which have their own guide:
-* [Atoms](TODO)
-* [Vars](TODO)
-* [Refs](TODO)
-* [Agents](TODO)
+* [Atoms](atoms.md)
+* [Vars](vars.md)
+* [Refs](refs.md)
+* [Agents](agents.md)
 
-All of Clojure's reference types support [watches](TODO) and [validators](TODO).
+All of Clojure's reference types support [watches](watches.md) and [validators](validators.md).
 
 ## Toggling Mutability
 
 Clojure's core data structures are immutable by default.
 
-However, you can temporarily enable mutability of many of these data structures using [transients](TODO).
+However, you can temporarily enable mutability of many of these data structures using [transients](transients.md).
 
 ## Best Practices For State
 
